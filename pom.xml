@@ -27,6 +27,7 @@
     <modules>
         <module>chapter001-base-jdbc</module>
         <module>chapter002-mybatis-quick-start</module>
+        <module>chapter003-mybatis-guide</module>
     </modules>
 
     <dependencyManagement>
