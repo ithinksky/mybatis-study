@@ -19,15 +19,23 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <jdk.version>1.8</jdk.version>
         <mysql-connector-java.version>5.1.47</mysql-connector-java.version>
+        <mybatis.version>3.5.1</mybatis.version>
         <junit.version>4.12</junit.version>
+
     </properties>
 
     <modules>
         <module>chapter001-base-jdbc</module>
+        <module>chapter002-mybatis-quick-start</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
